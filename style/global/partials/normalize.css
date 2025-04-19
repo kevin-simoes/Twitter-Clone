@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+
+main {
+    position: relative;
+    margin: 0 auto;
+    grid-template-columns: 214px 616px 350px;
+    max-width: 1200px;
+    gap: 1.75rem;
+    margin-left: 191px;
+    /* Compensa a navbar fixa */
+    display: flex;
+    /* Mantém o layout em linha */
+    gap: 1.75rem;
+      overflow-x: hidden;
+}

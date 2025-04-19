@@ -1,0 +1,109 @@
+.post {
+    border-top: 1px solid rgb(62, 65, 68);
+    padding: 1rem;
+}
+
+.top-post {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.top-post div nav {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: center;
+}
+
+.top-post div nav p:nth-of-type(1) {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.top-post div nav p:nth-of-type(2) {
+    color: rgb(134, 134, 134);
+    font-size: 15px;
+}
+
+.top-post div nav p:nth-of-type(3) {
+    color: rgb(134, 134, 134);
+    font-size: 15px;
+}
+
+.top-post div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.bottom-post {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.bottom-post img {
+    display: flex;
+    height: 431px;
+    width: 531px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+
+.bottom-post nav {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.bottom-post nav a {
+    display: flex;
+    flex-direction: row;
+    color: rgb(134, 134, 134);
+    font-size: 15px;
+    align-items: center;
+    gap: 0.2rem;
+    transition: all 0.3s ease;
+}
+
+.bottom-post nav a:nth-of-type(1):hover {
+    color: rgb(29, 155, 240);
+  }  
+
+  .bottom-post nav a:nth-of-type(2):hover {
+    color: rgb(24, 162, 45);
+  }
+
+  .bottom-post nav a.rt svg {
+    stroke: rgb(36, 248, 67);
+  }
+
+  .bottom-post nav a.rt {
+    color: rgb(36, 248, 67);
+  }
+
+  .bottom-post nav a:nth-of-type(3):hover {
+    color: rgb(248, 36, 100);
+  }
+
+  .bottom-post nav a.ativo svg {
+    stroke: rgb(248, 36, 100);
+    fill: rgb(248, 36, 100);
+  }
+
+  .bottom-post nav a.ativo {
+    color: rgb(248, 36, 100);
+  }
+
+  .bottom-post nav a:nth-of-type(4):hover {
+    color: rgb(29, 155, 240);
+  }
+
+  .bottom-post nav a:nth-of-type(5):hover {
+    color: rgb(29, 155, 240);
+  }
+  
+  
